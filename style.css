@@ -1,4 +1,230 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Shared Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+.section-des {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+.line{
+  width: 60px;
+  margin: 20px auto 0 auto;
+  border: 2px solid #e55473;
+}
+
+/* Beautiful Flower Section Styles */
+.beautiful-flower {
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  background: rgba(229, 84, 115, 0.1);
+}
+.beautiful-flower .section-info {
+  padding-top: 120px;
+}
+.beautiful-flower .section-title {
+  width: 508px;
+  font-size: 50px;
+}
+.beautiful-flower .section-info p {
+  width: 490px;
+  margin: 25px 0;
+}
+.front-img {
+  margin-left: 97px;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+/* Featured Section Styles */
+.featured{
+  padding: 100px 0;
+}
+.featured .section-info{
+  width: 594px;
+  margin: 0 auto;
+  padding-bottom: 55px;
+  text-align: center;
+}
+
+.featured .section-des{
+  margin-top: 24px;
+}
+.featured-flower-trees{
+  display: flex;
+  justify-content: center;
+}
+.pink-flower{
+  margin: 0 15px;
+}
+.shape-one{
+  width: 280px;
+  height: 300px;
+  margin-bottom: 32px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.shape-two{
+  width: 280px;
+  height: 300px;
+  margin-bottom: 32px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.shape-three{
+  width: 280px;
+  height: 300px;
+  margin-bottom: 32px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.shape-image{
+  width: 180px;
+}
+.shape-one .shape-image{
+  margin: 51px 0 0 50px;
+}
+.shape-two .shape-image{
+  margin: 90px 0 0 60px;
+}
+.shape-three .shape-image{
+  margin: 30px 0 0 50px;
+}
+
+.image-title{
+  color: #272727;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* New Arrival Section Styles */
+.new-arrival{
+  margin-bottom: 90px;
+  text-align: center;
+}
+.new-arrival-img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+}
+.new-arrival-img img{
+  width: 200px;
+  padding: 0 15px;
+}
+.new-arrival-img h3{
+  font-size: 18px;
+  margin: 15px 0;
+}
+.new-arrival-img .section-des{
+  margin-top: 20px;
+  font-weight: 600;
+}
+.new-arrival-img i{
+  margin: 40px 10px 0 10px;
+  color: #e55473;
+  font-size: 25px;
+  position: absolute;
+}
+.fa-circle-arrow-left{
+  top: 70px;
+  left: 130px;
+}
+.fa-circle-arrow-right{
+  top: 70px;
+  right: 130px;
+}
+
+/* Delivery-Section Styles */
+.delivery-section{
+  width: 75%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto 124px auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.local-flower{
+  padding: 0 60px;
+}
+.support-img{
+  width: 60px;
+}
+.support-des{
+  color: rgba(39, 39, 39, 0.80);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Hot Sale Section Styles */
+
+.hot-sales{
+  height: 450px;
+  display: flex;
+  margin-bottom: 124px;
+  padding: 0 150px 0 150px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.sales-info{
+  width: 700px;
+  text-align: center;
+  margin: auto 0;
+}
+.sales-info .section-des{
+  padding: 24px 60px 35px 60px;
+}
+.sales-img{
+  width: 230px;
+  margin: auto;
+}
+
+/* Instagram Section Styles */
+.instagram-section{
+  margin-bottom: 124px;
+}
+.instagram-section .section-info{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.instagram-section .section-des{
+  margin: 24px 0 48px 0;
+}
+.instagram-section .section-img{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+.instagram-img{
+  width: 250px;
 }
